@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Griffin L. Portfolio</title> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.google.com/specimen/Angkor?category=Display" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Griffin L. Portfolio</h1>
+        </header>
+        <div id="container">
+            
+            <div class="home" onclick="openPage('index.html')"><h4>Home</h4></div>
+            <div class="resume" onclick="openPage('resume.html')"><h4>Resume</h4></div>
+            <div class="gallery" onclick="openPage('gallery.html')"><h4>Gallery</h4></div>
+            <div class="interests" onclick="openPage('interests.html')"><h4>Interests</h4></div>
+        </div>
+        
+        <div id="interestshub">
+           
+            <div id="music" onclick="openPage('index.html')"><h4>Music→</h4></div>
+            <div id="tv" onclick="openPage('index.html')"><h4>TV→</h4></div>
+            <div id="film" onclick="openPage('index.html')"><h4>Film→</h4></div>
+            <div id="books" onclick="openPage('index.html')"><h4>Books→</h4></div>
+            <div id="games" onclick="openPage('index.html')"><h4>Games→</h4></div>
+            <div id="school" onclick="openPage('index.html')"><h4>School→</h4></div>
+            <div id="life" onclick="openPage('index.html')"><h4>Life→</h4></div>
+
+        </div>
+
+        
+        <footer>
+            <div id="footer"></div>
+        </footer>
+    </body>
+    <script>
+        function openPage(pageUrl){
+            window.location = pageUrl;
+        }
+    </script>
+</html>
